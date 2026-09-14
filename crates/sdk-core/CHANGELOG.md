@@ -33,6 +33,10 @@ relevant information.
 
 ## Unreleased
 
+### Fixed
+* Workflow poll balancing now lets non-sticky pollers use capacity after sticky pollers reach their
+  configured or autoscaled polling limit.
+
 ## [0.9.0] - 2026-09-04
 
 ## [0.8.0] - 2026-09-02

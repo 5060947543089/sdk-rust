@@ -33,6 +33,10 @@ relevant information.
 
 ## Unreleased
 
+### Fixed
+* Sticky workflow backlog no longer prevents normal pollers from using capacity after sticky
+  pollers reach their polling limit.
+
 ## [1.0.0] - 2026-09-04
 
 ### Changed
